@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://4.bp.blogspot.com/-4--zZW_POvE/V88zHKfeImI/AAAAAAAAJxA/wIzsQ4NaKikxbJ_oUuYXxIMmallWmACNwCLcB/s1600/maxresdefault.jpg");
+}
+
+.container {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+.container p {
+    font-size: 20vw;
+    color: white;
+    background: transparent;
+}

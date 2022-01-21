@@ -4,7 +4,7 @@
  * @return {string} Return Fizz, Bizz, FIZZBUZZ or ...
  */
 
-export function fizzBuzz(number) {
+export default function isFizzBuzz(number) {
     if (number % 3 == 0 && number % 5 == 0) {
         return "FIZZBUZZ"
     }

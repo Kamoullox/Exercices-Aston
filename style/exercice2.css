@@ -1,11 +1,20 @@
 * {
     padding: 0;
     margin: 0;
-    background-image: url("https://4.bp.blogspot.com/-4--zZW_POvE/V88zHKfeImI/AAAAAAAAJxA/wIzsQ4NaKikxbJ_oUuYXxIMmallWmACNwCLcB/s1600/maxresdefault.jpg");
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/1468858.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
 .container {
-    width: 80%;
+    width: 67%;
+    height: 17vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,7 +33,7 @@
 
 
 .container p {
-    font-size: 20vw;
+    font-size: 17vw;
     color: white;
     background: transparent;
 }

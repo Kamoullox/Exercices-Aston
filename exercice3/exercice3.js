@@ -1,4 +1,4 @@
-import isFizzBuzz from "./fizzbuzz.js";
+import isFizzBuzz from "../scripts/fizzbuzz.js";
 
 let body = document.querySelector("body");
 let ul = document.createElement('ul');

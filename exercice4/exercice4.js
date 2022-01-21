@@ -1,4 +1,4 @@
-import isFizzBuzz from "./fizzbuzz.js";
+import isFizzBuzz from "../scripts/fizzbuzz.js";
 
 let body = document.querySelector("body");
 body.innerHTML += "<div class='card'>  <h2>1</h2> <p>...</p> <div class='buttonContainer'> <button class='minus'>-</button> <button class='plus'>+</button> </div> </div>";
